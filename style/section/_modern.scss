@@ -1,0 +1,24 @@
+.modern {
+    background: url(/img/modern-bg.jpg) no-repeat center/cover;
+    padding: 68px 0 851px;
+    &__title {
+        font-family: 'PT Serif', serif;
+        font-size: toRem(48);
+        line-height: 48px;
+        max-width: 455px;
+        text-align: right;
+        color: #fff;
+        margin-left: auto;
+        margin-bottom: 15px;
+    }
+
+    &__btn {
+        display: block;
+        background-color: #020202;
+        color: #fff;
+        padding: 15px 18px;
+        margin-left: auto;
+    }
+
+
+}
